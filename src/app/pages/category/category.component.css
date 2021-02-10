@@ -94,12 +94,14 @@
     font-size: 1em;
     line-height: 1.2;
     font-weight: 400;
-    font-family: Roboto;
+    /* font-family: Roboto; */
+    font-family: 'Montserrat', sans-serif;
 }
 .product-price {
     font-size: 1.14286em;
     color: #9f9f9f;
-    font-family: Playfair Display;
+    /* font-family: Playfair Display; */
+    font-family: 'Montserrat', sans-serif;
 }
 @media screen and (max-width: 767px) {
     .header-block {
