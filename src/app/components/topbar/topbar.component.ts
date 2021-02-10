@@ -7,7 +7,7 @@ import {CartService} from "../../services/cart.service";
 @Component({
     selector: 'top-bar',
     styleUrls: ['./top-bar.component.css'],
-    template: `    
+    template: `
     <div class="main-header navbar-fixed-top">
         <div class="header-menu">
             <div class="header-mobile-nav-wrapper">
@@ -27,10 +27,7 @@ import {CartService} from "../../services/cart.service";
                         <a routerLink="/">SHOP<span class="fa fa-caret-down"></span></a>
                     </li>
                     <li class="header-nav-item">
-                        <a routerLink="/">JOURNAL</a>
-                    </li>
-                    <li class="header-nav-item">
-                        <a routerLink="/">MORE<span class="fa fa-caret-down"></span></a>
+                        <a routerLink="/">ABOUT</a>
                     </li>
                 </ul>
             </div>
@@ -53,10 +50,7 @@ import {CartService} from "../../services/cart.service";
                 <a routerLink="/">SHOP</a>
             </li>
             <li>
-                <a routerLink="/">JOURNAL</a>
-            </li>
-            <li>
-                <a routerLink="/">MORE</a>
+                <a routerLink="/">ABOUT</a>
             </li>
         </ul>
         <cart-popup></cart-popup>
