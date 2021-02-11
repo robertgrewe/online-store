@@ -1,13 +1,15 @@
 /**
  * Created by andrew.yang on 7/27/2017.
  */
- import {AboutComponent} from "./about/about.component";
+import {HomeComponent} from "./home/home.component";
+import {AboutComponent} from "./about/about.component";
 
 export const appRoutes=[
     {
         path:'',
-        redirectTo:'category',
-        pathMatch:'full'
+        redirectTo:'',
+        pathMatch:'full',
+        component: HomeComponent,
     },
     {
         path:'about',

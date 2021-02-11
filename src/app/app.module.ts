@@ -11,13 +11,15 @@ import {AboutComponent} from "./about/about.component";
 import {CartService} from "./services/cart.service";
 import {CartPopupComponent} from "./pages/cart/cart-popup/cart-popup.component";
 import {ProductService} from "./services/products.service";
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
     declarations: [
         AppComponent,
         TopbarComponent,
         AboutComponent,
-        CartPopupComponent
+        CartPopupComponent,
+        HomeComponent
     ],
     imports: [
         BrowserAnimationsModule,
