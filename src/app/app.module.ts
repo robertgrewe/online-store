@@ -7,6 +7,7 @@ import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
 import {RouterModule} from "@angular/router";
 import {appRoutes} from "./app.routes";
 import {TopbarComponent} from "./components/topbar/topbar.component";
+import {AboutComponent} from "./about/about.component";
 import {CartService} from "./services/cart.service";
 import {CartPopupComponent} from "./pages/cart/cart-popup/cart-popup.component";
 import {ProductService} from "./services/products.service";
@@ -15,6 +16,7 @@ import {ProductService} from "./services/products.service";
     declarations: [
         AppComponent,
         TopbarComponent,
+        AboutComponent,
         CartPopupComponent
     ],
     imports: [

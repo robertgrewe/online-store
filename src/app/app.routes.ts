@@ -1,11 +1,19 @@
 /**
  * Created by andrew.yang on 7/27/2017.
  */
+ import {AboutComponent} from "./about/about.component";
+
 export const appRoutes=[
     {
         path:'',
         redirectTo:'category',
         pathMatch:'full'
+    },
+    {
+        path:'about',
+        component: AboutComponent,
+        //redirectTo:'about',
+        //loadChildren:'./about/about.component'
     },
     {
         path:'category',
