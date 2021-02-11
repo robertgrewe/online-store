@@ -16,7 +16,9 @@ import {CartService} from "../../services/cart.service";
                 </button>
             </div>
             <div class="header-logo-wrapper">
+            <a routerLink="/">
                 <img class="header-logo-image" src="./assets/imgs/logo.png" alt="Hero">
+            </a>
             </div>
             <div class="header-nav-wrapper">
                 <ul class="header-nav">
