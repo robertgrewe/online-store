@@ -4,48 +4,48 @@
     "brand": "Boston Dynamics",
     "price": 74000,
     "description": "Spot Explorer is designed for developers eager to explore how flexible mobile robots can be adapted for tasks ranging from industrial inspection to entertainment.",
-    "image": "Spot-Explorer-2.jpg"
+    "image": "./assets/imgs/Spot-Explorer-2.jpg"
   },
   {
     "title": "Wingcopter",
     "brand": "Wingcopter GmbH",
     "price": 9999,
     "description": "The Wingcopter 178 Heavy Lift, is the latest iteration of Wingcopter drones and can carry a payload of up to 6 kg in its external transportation box.",
-    "image": "wingcopter.jpg"
+    "image": "./assets/imgs/wingcopter.jpg"
   },
   {
     "title": "Hand Painted Blue Flat Dish",
     "brand": "Kiriko",
     "price": 28,
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at purus pulvinar, placerat turpis ac, interdum metus. In eget massa sed enim hendrerit auctor a eget arcu. Curabitur ac pharetra nisl, sit amet mattis dolor.",
-    "image": "hand-painted-blue-flat-dish.jpg"
+    "image": "./assets/imgs/hand-painted-blue-flat-dish.jpg"
   },
   {
     "title": "Heme",
     "brand": "Dust & Form",
     "price": 52,
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at purus pulvinar, placerat turpis ac, interdum metus. In eget massa sed enim hendrerit auctor a eget arcu. Curabitur ac pharetra nisl, sit amet mattis dolor.",
-    "image": "heme.jpg"
+    "image": "./assets/imgs/heme.jpg"
   },
   {
     "title": "Mashiko-Yaki Green Small Plate",
     "brand": "Kiriko",
     "price": 28,
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at purus pulvinar, placerat turpis ac, interdum metus. In eget massa sed enim hendrerit auctor a eget.",
-    "image": "mashiko-yaki-green-small-plate.jpg"
+    "image": "./assets/imgs/mashiko-yaki-green-small-plate.jpg"
   },
   {
     "title": "Mashiko-Yaki Indigo Small Plate",
     "brand": "Kiriko",
     "price": 28,
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at purus pulvinar, placerat turpis ac, interdum metus. In eget massa sed enim hendrerit auctor a eget.",
-    "image": "mashiko-yaki-indigo-small-plate.jpg"
+    "image": "./assets/imgs/mashiko-yaki-indigo-small-plate.jpg"
   },
   {
     "title": "Mashiko-Yaki Saucer",
     "brand": "Kiriko",
     "price": 18,
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at purus pulvinar, placerat turpis ac, interdum metus. In eget massa sed enim hendrerit auctor a eget.",
-    "image": "mashiko-yaki-saucer.jpg"
+    "image": "./assets/imgs/mashiko-yaki-saucer.jpg"
   }
 ]
