@@ -20,7 +20,6 @@ describe('Cart Page', () => {
       imports: [
         BrowserModule,
         FormsModule,
-        HttpModule,
         SharedModule,
         RouterTestingModule
       ],

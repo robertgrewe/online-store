@@ -29,7 +29,12 @@ export class ProductComponent implements OnInit {
         this.sub = this.productService.getProducts('./assets/mock-data/products.json')
             .subscribe(res => {
                 this.product = res[id-1];
+                console.log(this.product)
             })
+            // console.log(this.product)
+            // console.log(this.product.title)
+
+
     };
     changeQuantity = (newQuantity:number) => {
         this.quantity = newQuantity;
