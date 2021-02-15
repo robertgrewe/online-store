@@ -4,7 +4,7 @@ import { ProductComponent } from './product.component';
 import {SharedModule} from "../../shared/shared.module";
 import {ProductService} from "../../services/products.service";
 import {CartService} from "../../services/cart.service";
-import {HttpModule} from "@angular/http";
+import { HttpClientModule } from '@angular/common/http';
 import {FormsModule} from "@angular/forms";
 import {BrowserModule} from "@angular/platform-browser";
 import {RouterTestingModule} from "@angular/router/testing";
@@ -22,7 +22,6 @@ describe('Product Page, test add to cart button', () => {
       imports: [
         BrowserModule,
         FormsModule,
-        HttpModule,
         SharedModule,
         RouterTestingModule
       ],

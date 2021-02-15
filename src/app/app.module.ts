@@ -1,7 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
-import {HttpModule} from "@angular/http";
+import { HttpClientModule } from '@angular/common/http';
 import {FormsModule} from "@angular/forms";
 import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
 import {RouterModule} from "@angular/router";
@@ -25,7 +25,7 @@ import { HomeComponent } from './home/home.component';
         BrowserAnimationsModule,
         BrowserModule,
         FormsModule,
-        HttpModule,
+        HttpClientModule,
         RouterModule.forRoot(appRoutes)
     ],
     providers: [CartService,ProductService],

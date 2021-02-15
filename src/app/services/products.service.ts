@@ -4,16 +4,17 @@
 
 import {Injectable} from "@angular/core";
 import {Http,Response} from "@angular/http";
+import { HttpClient } from '@angular/common/http';
 import {Observable} from "rxjs";
 
 @Injectable()
 export class ProductService {
 
-    constructor(public http: Http) { }
+    constructor(public http: HttpClient) { }
 
     public getProducts(dataURL:string){
         return this.http.get(dataURL)
-            .map((res:Response) => res.json())
+            // .map((res:Response) => res.json())
             .catch((error:any) => Observable.throw(error || 'Server error'));
     }
 }

@@ -7,7 +7,7 @@ import {ProductService} from "../../services/products.service";
 import {BrowserModule} from "@angular/platform-browser";
 import {FormsModule} from "@angular/forms";
 import {RouterTestingModule} from "@angular/router/testing";
-import {HttpModule} from "@angular/http";
+import { HttpClientModule } from '@angular/common/http';
 import {CartPageComponent} from "./cart-page.component";
 
 describe('Cart Page', () => {
