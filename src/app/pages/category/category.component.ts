@@ -22,7 +22,7 @@ export class CategoryComponent implements OnInit {
         this.load();
     }
     load = () => {
-      console.log("I am here now.")
+      console.log("I am here.")
        // this.sub = this.productService.getProducts('https://fakestoreapi.com/products')
        this.sub = this.productService.getProducts('./assets/mock-data/products.json')
             .subscribe(res => {

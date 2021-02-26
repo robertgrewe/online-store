@@ -1,6 +1,6 @@
 .header-image {
     height: 400px;
-    background: url("../assets/imgs/header.png") no-repeat;
+    background: url("../assets/imgs/header.png");
     background-size:cover;
     background-position: center center;
 }
