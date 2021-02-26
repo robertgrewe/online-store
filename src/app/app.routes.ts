@@ -19,18 +19,18 @@ export const appRoutes=[
     },
     {
         path:'category',
-        loadChildren:'./pages/category/category.module#CategoryModule'
+        loadChildren:() => import('./pages/category/category.module').then(m => m.CategoryModule)
     },
     {
         path:'product',
-        loadChildren:'./pages/product/product.module#ProductModule'
+        loadChildren:() => import('./pages/product/product.module').then(m => m.ProductModule)
     },
     {
         path:'cart',
-        loadChildren:'./pages/cart/cart-page.module#CartPageModule'
+        loadChildren:() => import('./pages/cart/cart-page.module').then(m => m.CartPageModule)
     },
     {
         path:'**',
-        loadChildren:'./pages/category/category.module#CategoryModule'
+        loadChildren:() => import('./pages/category/category.module').then(m => m.CategoryModule)
     }
 ];
